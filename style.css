@@ -1,0 +1,23 @@
+body {
+  background: #1e2126;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 800px;
+}
+
+/** Effetto pulsante per regioni attenzionate */
+
+path.alert {
+  animation: pulse 10s infinite;
+  -webkit-animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%   { fill: #fff }
+  100% { fill: #000 }
+}
+
+}
